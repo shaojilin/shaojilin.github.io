@@ -5,11 +5,11 @@
 <meta property="og:site_name" content="我的博客">
 <meta property="og:description" content="记录老表生活、C++和Go学习笔记，由Hexo+Github搭建。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="og:image" content="http://example.com/img/portrait.jpg">
 <meta property="article:author" content="shao jilin">
 <meta property="article:tag" content="生活,分享,C++,Go,数据分析,Web开发">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.14.0-b1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.35/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>(()=>{
+<meta name="twitter:image" content="http://example.com/img/portrait.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=4.14.0-b1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.35/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>(()=>{
       const saveToLocal = {
         set: (key, value, ttl) => {
           if (ttl === 0) return
@@ -130,10 +130,10 @@
     })()</script><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
-  localSearch: undefined,
-  translate: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"簡","msgToSimplifiedChinese":"簡"},
   noticeOutdate: undefined,
-  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":false,"highlightHeightLimit":false},
   copy: {
     success: '复制成功',
     error: '复制错误',
@@ -143,7 +143,7 @@
     homepage: false,
     post: false
   },
-  runtime: '',
+  runtime: '天',
   dateSuffix: {
     just: '刚刚',
     min: '分钟前',
@@ -172,18 +172,236 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-04-05 18:23:21'
-}</script><meta name="generator" content="Hexo 7.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="我的博客"><span class="site-name">我的博客</span></a></span><div id="menus"><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">我的博客</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/03/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AAtest%E6%96%87%E7%AB%A0/" title="这是一个test文章">这是一个test文章</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-03T11:51:06.000Z" title="发表于 2024-04-03 19:51:06">2024-04-03</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/03/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-03T11:46:14.540Z" title="发表于 2024-04-03 19:46:14">2024-04-03</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+  postUpdate: '2024-04-05 22:49:27'
+}</script><link rel="stylesheet" href="/css/mouse.css"><meta name="generator" content="Hexo 7.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/portrait.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments-o"></i><span> 分享</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/background.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="我的博客"><span class="site-name">我的博客</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments-o"></i><span> 分享</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">我的博客</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2024/04/05/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3RPC/" title="无题"><img class="post-bg" src="/img/picture/155.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3RPC/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.718Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">什么是 RPC ？随着企业 IT 服务的不断发展，单台服务器逐渐无法承受用户日益增长的请求压力时，就需要多台服务器联合起来构成「服务集群」共同对外提供服务。同时业务服务会随着产品需求的增多越来越肿，架构上必须进行服务拆分，一个完整的大型服务会被打散成很多很多独立的小服务，每个小服务会由独立的进程去管理来对外提供服务，这就是「微服务」。
+当用户的请求到来时，我们需要将用户的请求分散到多个服务去各自处理，然后又需要将这些子服务的结果汇总起来呈现给用户。那么服务之间该使用何种方式进行交互就是需要解决的核心问题。RPC 就是为解决服务之间信息交互而发明和存在的。
 
-More info: Writing
-Run server1$ hexo server
+概念
 
-More info: Server
-Generate static files1$ hexo generate
+RPC (Remote Procedure Call)即远程过程调用，是分布式系统常见的一种通信方法，已经有 40 多年历史。当两个物理分离的子系统需要建立逻辑上的关联时，RPC 是牵线搭桥的常见技术手段之一。除 RPC 之外，常见的多系统数据交互方案还有分布式消息队列、HTTP 请求调用、数据库和分布式缓存等。
 
-More info: Generating
-Deploy to remote sites1$ hexo deploy
+其中 RPC 和 HTTP 调用是没有经过中间件的，它们是端到端系统的直接数据交互。HTTP 调用其实也可以看 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/04/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" title="无题"><img class="post-bg" src="/img/picture/159.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.716Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">计算机网络​	1.1 数据的交换方式
+​		电路交换 ：整个报文的比特流连续地从源点直达终点，好像在一个管道中传送
+​		报文交换：整个报文先传送到相邻节点，全部存储下来后查找转发表，转发到下一个结点。
+​		分组交换：单个分组（这只是报文的一部分）传送到相邻结点，存储下来后查找转发表，转发到下一结点。
+​					
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/04/05/%E5%B8%B8%E8%A7%81C++%E4%BF%AE%E9%A5%B0%E7%AC%A6/" title="无题"><img class="post-bg" src="/img/picture/160.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/%E5%B8%B8%E8%A7%81C++%E4%BF%AE%E9%A5%B0%E7%AC%A6/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.713Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">C&#x2F;C++常见修饰符(inline&amp;static&amp;const&amp;extern&amp;volatile)static
+关键字static有着不同不同寻常的历史。起初，在C中引入关键字static是为了表示退出一个块后仍然存在的局部变量；随后，static在C中有了第二种含义：用来表示不能被其它文件访问的全局变量和函数。为了避免引入新的关键字，所以仍使用static关键字来表示这第二种含义。
 
-More info: Deployment
-</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">shao jilin</div><div class="author-info__description">记录老表生活、C++和Go学习笔记，由Hexo+Github搭建。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/03/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AAtest%E6%96%87%E7%AB%A0/" title="这是一个test文章">这是一个test文章</a><time datetime="2024-04-03T11:51:06.000Z" title="发表于 2024-04-03 19:51:06">2024-04-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/03/hello-world/" title="Hello World">Hello World</a><time datetime="2024-04-03T11:46:14.540Z" title="发表于 2024-04-03 19:46:14">2024-04-03</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-05T10:23:21.479Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By shao jilin</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.14.0-b1"></script><script src="/js/main.js?v=4.14.0-b1"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.35/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+static的三个作用
+
+①控制存储方式（生命周期）：函数内部的static变量，即静态局部变量，因为是局部变量，已经是内部连接了。
+
+控制存储方式⟹静态存储区：持久性+默认值为0。
+
+①存储在静态数据区的变量会在程序刚开始运行时就完成初始化，也是唯一的一次初始化。
+②在静态数据区，内存中所有的字节默认值都是0x00（对于整型为0；对于字符数组为&#39;\0&#39;），某些时候这一特点可以减少程序员的工作量。
+
+
+static修饰局部变量
+123456789101112    - 一般情况下，局部变量是放在栈区的，并且局部变量的生命周期在该语句块执行结束时便结束 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/04/05/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" title="无题"><img class="post-bg" src="/img/picture/155.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.711Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">并发编程并发必须满足的三个特性​	1、原子性
+​	2、可见性
+​	3、有序性
+volatile1、volatile 关键字是线程同步的轻量级实现，所以volatile 性能肯定比synchronized关键字要好。但是volatile 关键字只能用于变量而 synchronized 关键字可以修饰方法以及代码块
+2、volatile 关键字能保证数据的可见性，不能保证数据的原子性。synchronized 关键字两者都能保证
+3、volatile关键字主要用于解决变量在多个线程之间的可见性，而 synchronized 关键字解决的是多个线程之间访问资源的同步性。
+满足条件1）对变量的写操作不依赖于当前值
+2）该变量没有包含在具有其他变量的不变式中
+以上的条件需要保证操作是原子性操作，才能保证使用volatile关键字的程序在并发时能够正确执行
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/04/05/To%20Do%20List/" title="无题"><img class="post-bg" src="/img/picture/153.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/To%20Do%20List/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.707Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">✔️ To Do List周六 3&#x2F;9​	任务描述
+
+ 毕设项目 图片加载问题，
+ 论文将[]去掉，修改格式问题
+ 运行老秦C++项目 紧急
+ 添加待办事项
+
+周二 3&#x2F;12​	任务描述
+
+ 
+毕设项目 添加个人主页添加图片
+
+ 
+毕设 修改发布物品页面
+
+ 
+添加用户重新上架模块
+
+ 
+安装git bash
+
+ 
+将毕设上传到github v1版本
+
+
+周三 3&#x2F;13任务描述
+
+ 修改毕设论文 改图片
+ 分析后端代码流程过一遍
+ 阅读 springboot框架 
+ 完成yazi框架部署到服务器
+ git 发布Webserver项目
+
+视频学习
+
+ 学习技术蛋老师 Vue
+ YouTube 配置Clash Mix
+
+周四 3&#x2F;14任务描述
+
+ 选择适合音乐播放器
+ 学习异步回调函数demo
+ 学习C++ thread编程
+
+周五3&#x2F;15任务描述
+
+ 学习QT 编程 1—》3
+ 实现一个简易的贪吃蛇demo
+ 基于QT的文件操作
+ 居于QT的字符串操作
+ 剑指off67道
+ hot100任意3道
+ 理解lock_guard和unique_ ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/04/05/TCP%20%20IP%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%20--%E5%B0%B9%E5%9C%A3%E9%9B%A8/" title="无题"><img class="post-bg" src="/img/picture/152.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/TCP%20%20IP%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%20--%E5%B0%B9%E5%9C%A3%E9%9B%A8/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.704Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">TCP &#x2F; IP网络编程 –尹圣雨习题1.5
+
+套接字在网络编程中的作用是什么？为何称它为套接字？
+
+操作系统提供套接字API的部件，套接字是网络数据传输用的软件设备。因此网络编程也叫套接字编程。
+套接字就是连接网络的工具。
+
+在服务器端创建套接字以后，会依次调用 listen 函数和 accept 函数。请比较二者作用。
+调用listen函数将套接字转化为可接受连接状态(监听)，
+调用accept函数受理连接请求。在没有连接请求的情况下调用此函数，则不会返回，知道用连接请求为止。
+
+Linux 中，对套接字数据进行 I&#x2F;O 时可以直接使用文件 I&#x2F;O 相关函数；而在 Windows 中则不可以。原因为何？
+Linux把套接字也看作是文件，所以可以用文件I&#x2F;O相关函数；而Windows要区分套接字和文件，所以设置了特殊的函数。
+
+创建套接字后一般会给他分配地址，为什么？为了完成地址分配需要调用哪个函数？
+ 套接字被创建之后，只有为其分配了IP地址和端口号后，客户端才能够通过IP地址及端口号与服务器端建立连接，需要调用 bind 函数来完成地址分配 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/04/05/STL%E6%BA%90%E7%A0%81%E5%89%96%E6%9E%90/" title="无题"><img class="post-bg" src="/img/picture/153.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/STL%E6%BA%90%E7%A0%81%E5%89%96%E6%9E%90/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.701Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">STL源码剖析六大组件STL提供了六大组件，彼此组合套用协同工作。 
+容器(contaioner)：
+包含了各种数据结构。例如动态数组(vector)，链表(list)，双端队列(deque)，集合(set)，映射(map)等…
+作用是在一块空间内存放数据。
+从实现的角度看，STL容器是一种类模板(class template)。
+算法(algorithm)：
+各种常用的算法，如sort，search，copy，erase，max，min等…
+作用是实现对数据的操作。
+从实现的角度看，STL算法是一种函数模板(function template)。
+迭代器(iterator)：
+包含了各种容器存取操作。例如operator*，operator-&gt;，operator++，operator- -等指针操作。
+作用是 容器 与 算法 之间的胶合剂。算法通过迭代器存取容器的内容。
+从实现的角度看，迭代器是一种将指针操作重载的类模板(class template)。
+迭代器共有五种类型已经它们的衍生变化。
+所有的容器都附带自己的专属迭代器，因为只有容器设计者才知道如何遍历自己的元素。
+原生 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/04/05/ssm%E6%A1%86%E6%9E%B6/" title="无题"><img class="post-bg" src="/img/picture/154.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/ssm%E6%A1%86%E6%9E%B6/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.699Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">一、什么是SSM框架？SSM框架是spring、spring MVC 、和mybatis框架的整合，是标准的MVC模式。标准的SSM框架有四层，分别是dao层（mapper），service层，controller层和View层。使用spring实现业务对象管理，使用spring MVC负责请求的转发和视图管理，mybatis作为数据对象的持久化引擎。
+1）持久层：dao层（mapper）层 作用：主要是做数据持久层的工作，负责与数据库进行联络的一些任务都封装在此。
+
+Dao层首先设计的是接口，然后再Spring的配置文件中定义接口的实现类。
+然后可以在模块中进行接口的调用来进行数据业务的处理。（不在关心接口的实现类是哪个类）
+数据源的配置以及有关数据库连接的参数都在Spring的配置文件中进行配置。
+
+2）业务层：Service层 作用：Service层主要负责业务模块的逻辑应用设计。
+
+先设计接口然后再设计实类，然后再在Spring的配置文件中配置其实现的关联。（业务逻辑层的实现具体要调用到自己已经定义好的Dao的接口上）这样就可以在应用中调用Service接口来进行业务处理。
+建 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/04/05/QT%E5%85%A5%E9%97%A8%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86/" title="无题"><img class="post-bg" src="/img/picture/152.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/QT%E5%85%A5%E9%97%A8%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.696Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">QT入门看这一篇就够（详解含源码）
+一、Qt概述
+
+
+1.1 什么是Qt
+1.2 Qt的发展史
+1.3 Qt的优势
+1.4 Qt版本
+1.5 成功案例
+
+
+二、创建Qt项目
+
+
+2.3 .pro文件
+2.4 命名规范
+2.5 QtCreator常用快捷键
+
+
+三、Qt类关系
+
+
+3.1 Qt父子关系
+3.2 Qt坐标系
+3.3 Qt对象树模型
+
+
+四、信号与槽机制
+
+
+4.1 默认信号和槽
+4.2 Qt自定义信号和槽
+4.3 Qt中的lambda表达式
+
+
+五、QMainWindow
+
+
+5.1 QMainWindow
+5.2 菜单栏
+5.3 工具栏
+5.4 状态栏
+5.5 停靠部件
+5.6 中心部件
+
+
+六、QDialog 对话框
+
+
+6.1 基本概念
+
+6.2 模态对话框
+
+6.2 标准对话框
+
+
+6.2.1 文件对话框（QFileDialog）
+6.2.2 颜色对话框（QColorDialog）
+6.2.3 字体对话框（QFontDialog）
+6.2.4 消息框（QMessageBox）
+6.2.5 输入对话框（QInputDialog）
+
+
+6.3 Qt自定义对话框
+
+
+
+七 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/04/05/QT%E7%9A%84%E5%AD%A6%E4%B9%A0/" title="无题"><img class="post-bg" src="/img/picture/152.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/05/QT%E7%9A%84%E5%AD%A6%E4%B9%A0/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-05T13:06:26.693Z" title="发表于 2024-04-05 21:06:26">2024-04-05</time></span></div><div class="content">QT的配置与学习概括Qt是一种C++编程框架，用于构建图形用户界面（GUI）应用程序和嵌入式系统。Qt由Qt公司（前身为Nokia）开发，提供了一套跨平台的工具和类库，使开发者能够轻松地创建高效、美观、可扩展的应用程序。其被广泛用于开发桌面应用程序、嵌入式系统、移动应用程序等。
+特点和用途
+跨平台性：QT是一个跨平台的框架，能够使得开发者编写一次代码，在多个平台上运行编译。
+图形用户界面（GUI）设计：开发者通过可视化设计工具创建用户界面。Qt的设计哲学注重直观性和易用性。
+信号与槽机制： Qt引入了一种灵活的信号与槽机制，用于处理对象之间的通信。这种机制使得对象能够在不直接了解其他对象的情况下相互通信，提高了代码的可维护性和可扩展性。
+模块化设计： Qt采用了模块化的设计，提供了丰富的类库覆盖了诸如图形渲染、文件I&#x2F;O、网络通信、数据库访问等多个领域。这使得开发者能够选择需要的模块，避免代码冗余。
+
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/portrait.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">shao jilin</div><div class="author-info__description">记录老表生活、C++和Go学习笔记，由Hexo+Github搭建。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/shaojilin"><i class="https://gitee.com/Usount/image/raw/master/img/csdn.png"></i><span>Follwer Me</span></a></div><div class="sticky_layout"></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By shao jilin</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">簡</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.14.0-b1"></script><script src="/js/main.js?v=4.14.0-b1"></script><script src="/js/tw_cn.js?v=4.14.0-b1"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.35/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        btf.getScript('https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+btf.addGlobalFn('pjaxSend', () => { typed.destroy() }, 'typedDestroy')
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["与买桂花同载酒","终不似，少年游"])
+  } else {
+    document.getElementById("subtitle").textContent = "与买桂花同载酒"
+  }
+}
+typedJSFn.run(subtitleType)</script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.14.0-b1"></script></div></div></body></html>
