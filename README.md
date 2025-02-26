@@ -23,6 +23,22 @@ A modern, responsive music player web application with playlist pagination funct
 
 Open `a.html` in your browser to see the music player in action.
 
+## Deployment
+
+This project is configured to automatically deploy to GitHub Pages when changes are pushed to the master branch. The deployment process will make the `a.html` file the default page that loads when visiting the GitHub Pages URL.
+
+### How it works:
+1. The GitHub Actions workflow in `.github/workflows/deploy.yml` handles the deployment
+2. When you push to the master branch, it automatically:
+   - Copies `a.html` to `index.html` (making it the default page)
+   - Deploys all files to GitHub Pages
+
+### To set up GitHub Pages:
+1. Go to your repository on GitHub
+2. Navigate to Settings > Pages
+3. Under "Build and deployment", select "GitHub Actions" as the source
+4. The site will be available at `https://[your-username].github.io/[repository-name]/`
+
 ## Usage
 
 1. Click on a song in the playlist to play it
